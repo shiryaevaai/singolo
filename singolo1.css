@@ -535,7 +535,7 @@ main {
 .slider-images {
 	display: inline-block;
 	height: inherit;
-	width: 900px;
+	/*width: 900px;*/
 }
 
 .arrow {
@@ -571,6 +571,15 @@ main {
 	margin-left: 40px
 }
 
+.phone-horizontal {
+	background: url(assets/images/iPhoneHorizontal.svg) no-repeat;
+	background-size: cover;
+	display: inline-block;
+	width: 650px;
+	height: 345px;
+	margin-bottom: 175px;
+	margin-left: 70px;
+}
 .highlight {
 	color: #f06c64;
 }

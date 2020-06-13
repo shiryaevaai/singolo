@@ -1,6 +1,15 @@
-﻿body
-{
+﻿@font-face {
+	font-family: Lato; /* Имя шрифта */
+	/*todo: relative path*/
+	src: url(D:/JavaScriptCourses2020/singolo/assets/fonts/Lato-Regular.ttf); /* Путь к файлу со шрифтом */
+	src: url(D:/JavaScriptCourses2020/singolo/assets/fonts/Lato-Semibold.ttf);
+}
+
+body {
 	margin: 0;
+	font-family: Lato, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
 }
 
 .navbar {

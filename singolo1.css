@@ -38,8 +38,8 @@ body {
 	-ms-flex-pack: justify;
 	justify-content: space-between;
 	/*padding: 17px 30px;*/ /*ToDo*/
-	padding-top: 17px;
-	padding-bottom: 17px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background-color: #2d303a;
 	color: white;
 }
@@ -53,7 +53,7 @@ body {
 	-ms-flex-align: center;
 	align-items: center;
 	-ms-flex-pack: justify;
-	height: 8px; /*ToDo*/
+	height: 10px; /*ToDo*/
 	background-color: #323746;
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 .logo h1{
-	margin-top: 20px;
+	margin-top: 21px;
 	margin-bottom: 20px;
 }
 
@@ -85,8 +85,6 @@ body {
 	display: inline-block;
 	/*-ms-flex-direction: column;
 	flex-direction: column;*/
-	/*margin-left: auto;
-	margin-bottom: 0;*/
 	margin-right: 12px;
 	padding-top: 38px;
 	float: right;

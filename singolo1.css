@@ -547,6 +547,10 @@ main {
 	margin-top: 377px;
 }
 
+.arrow:hover {
+	background: url(assets/images/arrow-hovered.svg) no-repeat;
+}
+
 .left {
 	margin-left: 55px;
 }
@@ -555,6 +559,16 @@ main {
 	transform: scale(-1, 1);
 	float: right;
 	margin-right: 55px;
+}
+
+.phone-vertical {
+	background: url(assets/images/iPhoneVertical.svg) no-repeat;
+	background-size: cover;
+	display: inline-block;
+	width: 332px;
+	height: 670px;
+	margin-top: 60px;
+	margin-left: 40px
 }
 
 .highlight {

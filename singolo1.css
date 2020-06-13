@@ -381,14 +381,28 @@ body {
 
 .navbar {
 	position: relative;
-	display: -ms-flexbox;
+	height: 76px;
+	
+	/*display: -ms-flexbox;
 	display: flex;
-	-ms-flex-wrap: wrap;
+	--webkit-display: box;
+	--webkit-display: flex;
+
+	--ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	-ms-flex-align: center;
+	--webkit-wrap: wrap;
+	--webkit-flex-wrap: wrap;
+
+	--ms-flex-align: center;
+	--webkit-flex-align: center;
+
 	align-items: center;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
+	--webkit-align-items: center;
+
+	--ms-flex-pack: justify;
+	--webkit-flex-pack: justify;
+
+	justify-content: space-between;*/
 	/*padding: 17px 30px;*/ /*ToDo*/
 	padding-top: 20px;
 	padding-bottom: 20px;

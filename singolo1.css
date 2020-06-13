@@ -117,9 +117,13 @@ body {
 	list-style: none;
 }
 
+.nav-item-active span {
+	color: #f06c64 !important; /*ToDo*/
+}
+
 .nav-item a:hover {
 	/*background: #786b59;*/ /* Цвет фона под ссылкой */
-	color: #f06c64; /* Цвет ссылки */
+	color: #acacac; /* Цвет ссылки */
 }
 
 .nav-item li a:active {

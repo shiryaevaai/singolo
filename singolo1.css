@@ -10,6 +10,21 @@ body {
 	font-family: Lato, Arial, sans-serif;
 	font-weight: normal;
 	font-style: normal;
+	/*
+	___________header_____________
+	background-color: #2d303a; header
+	background-color: #323746; line under header
+	background-color: #494e62; points in header
+	background-color: #f06c64; nav text
+	______________main__________
+	background-color: #f06c64; main background
+	background-color: #ca4549; arrows
+	background-color: #ea676b; line under main
+	____________services____________
+	background-color: #f2f2f2; services background
+	background-color: #666d89; services text
+
+	                           */
 }
 
 .navbar {
@@ -22,9 +37,22 @@ body {
 	align-items: center;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
-	padding: 20px 10px;    /*ToDo*/
-	background-color: black;
+	padding: 20px 10px; /*ToDo*/
+	background-color: #2d303a;
 	color: white;
+}
+
+.navbar-bottom-line {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: justify;
+	height: 10px; /*ToDo*/
+	background-color: #323746;
 }
 
 .container {
@@ -57,11 +85,10 @@ body {
 }
 
 .nav-list {
-
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-	}
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
 
 .nav-list li {
 	float: left;
@@ -80,11 +107,11 @@ body {
 
 .nav-item a:hover {
 	/*background: #786b59;*/ /* Цвет фона под ссылкой */
-	color: indianred; /* Цвет ссылки */
+	color: #f06c64; /* Цвет ссылки */
 }
 
 .nav-item li a:active {
-	color: indianred; /* Цвет ссылки */
+	color: #f06c64; /* Цвет ссылки */
 }
 
 .circle {
@@ -96,7 +123,7 @@ body {
 }
 
 .highlight {
-	color: red;
+	color: #f06c64;
 }
 
 .mr-auto {

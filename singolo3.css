@@ -372,6 +372,11 @@ template {
 
 body {
 	margin: 0;
+	background-color: #f06c64; /*form-background*/
+	background-color: #d6564f; /*form-fields*/
+	background-color: #f0d8d9; /*text */
+	background-color: #2d303a; /*footer-background*/
+	background-color: #5b6179; /*footer text*/
 }
 
 header {

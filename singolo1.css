@@ -392,7 +392,7 @@ body {
 
 .navbar {
 	position: relative;
-	height: 76px;
+	height: 69px;
 	/*display: -ms-flexbox;
 	display: flex;
 	--webkit-display: box;
@@ -520,7 +520,7 @@ main {
 	margin-right: auto;
 	margin-left: auto;
 	width: 100%;
-	height: 815px;
+	height: 740px;
 
 	
 	/*padding: 17px 30px;*/ /*ToDo*/
@@ -557,10 +557,10 @@ main {
 	background-size: cover;
 	--moz-background-size: cover;
 	--webkit-background-size: cover;
-	width: 22px;
-	height: 37px;
+	width: 20px;
+	height: 35px;
 	border-width: 0;
-	margin-top: 377px;
+	margin-top: 360px;
 }
 
 .arrow:hover {
@@ -568,10 +568,10 @@ main {
 	background-size: cover;
 	--moz-background-size: cover;
 	--webkit-background-size: cover;
-	width: 22px;
-	height: 37px;
+	width: 20px;
+	height: 35px;
 	border-width: 0;
-	margin-top: 377px;
+	margin-top: 360px;
 	cursor: pointer;
 }
 
@@ -588,20 +588,20 @@ main {
 
 .phone-vertical {
 	background: url(assets/images/iPhoneVertical.png) no-repeat;
-	background-size: cover;
+	background-size: contain;
 	display: inline-block;
-	width: 332px;
-	height: 670px;
+	width: 310px;
+	height: 630px;
 	margin-top: 60px;
 	margin-left: 40px
 }
 
 .phone-horizontal {
 	background: url(assets/images/iPhoneHorizontal.png) no-repeat;
-	background-size: cover;
+	background-size: contain;
 	display: inline-block;
-	width: 675px;
-	height: 345px;
+	width: 625px;
+	height: 310px;
 	margin-bottom: 175px;
 	margin-left: 70px;
 }

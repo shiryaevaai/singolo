@@ -502,6 +502,9 @@ input[name=Name]:invalid, input[name=Email]:invalid {
 	font-size: 18px;
 }
 
+.contacts-description {
+}
+
 .contacts-description p {
 	font-size: 12px;
 	line-height: 22px;
@@ -515,6 +518,12 @@ input[name=Name]:invalid, input[name=Email]:invalid {
 	font-size: 12px;
 	line-height: 22px;
 	word-wrap: break-word;
+
+}
+
+.contacts-data a {
+	color: #f0d8d9;
+	text-decoration: none;
 }
 
 .contact-data {

@@ -352,22 +352,22 @@ template {
 /*My styles*/
 @font-face {
 	font-family: Lato-Semibold;
-	src: url(assets/fonts/Lato-Semibold.ttf);
+	src: url('assets/fonts/Lato-Semibold.ttf');
 }
 
 @font-face {
 	font-family: Lato-Regular;
-	src: url(assets/fonts/Lato-Regular.ttf);
+	src: url('assets/fonts/Lato-Regular.ttf');
 }
 
 @font-face {
 	font-family: Lato-Black;
-	src: url(assets/fonts/Lato-Black.ttf);
+	src: url('assets/fonts/Lato-Black.ttf');
 }
 
 @font-face {
 	font-family: Lato-Light;
-	src: url(assets/fonts/Lato-Light.ttf);
+	src: url('assets/fonts/Lato-Light.ttf');
 }
 
 body {
@@ -392,7 +392,7 @@ body {
 
 .navbar {
 	position: relative;
-	height: 69px;
+	height: 70px;
 	/*display: -ms-flexbox;
 	display: flex;
 	--webkit-display: box;
@@ -589,7 +589,10 @@ main {
 .phone-vertical {
 	background: url(assets/images/iPhoneVertical.png) no-repeat;
 	background-size: contain;
+	--moz-background-size: contain;
+	--webkit-background-size: contain;
 	display: inline-block;
+	--webkit-display: inline-block;
 	width: 310px;
 	height: 630px;
 	margin-top: 60px;
@@ -599,7 +602,10 @@ main {
 .phone-horizontal {
 	background: url(assets/images/iPhoneHorizontal.png) no-repeat;
 	background-size: contain;
+	--moz-background-size: contain;
+	--webkit-background-size: contain;
 	display: inline-block;
+	--webkit-display: inline-block;
 	width: 625px;
 	height: 310px;
 	margin-bottom: 175px;
@@ -632,21 +638,39 @@ main {
 }
 
 .services-container {
-	display: grid;
-	/*width: 100%;*/
+	/*display: grid;
 	grid-template-columns: auto auto auto;
 	grid-template-rows: 150px 150px 150px;
 	grid-template-areas: "custom-design innovative-ideas love-is-the-answer" "responsive-layout support-24-7 feel-like-a-star";
 	grid-column-gap: 10px;
 	grid-row-gap: 10px;
-	margin-top: 52px;
+	--webkit-display: grid;
+	--webkit-dgrid-template-columns: auto auto auto;
+	--webkit-dgrid-template-rows: 150px 150px 150px;
+	--webkit-dgrid-template-areas: "custom-design innovative-ideas love-is-the-answer" "responsive-layout support-24-7 feel-like-a-star";
+	--webkit-dgrid-column-gap: 10px;
+	--webkit-dgrid-row-gap: 10px;*/
+	display: inline-block;
+	width: auto;
+	margin-top: 25px;
 	/*justify-items: start | end | center | stretch;*/
+}
+
+.services p {
+	font-family: Lato-Light, Arial, sans-serif;
+}
+
+.service {
+	display: inline-block;
+	width: 360px;
+	height: 150px;
+	margin: 5px 10px;
 }
 
 .services h2 {
 	margin-top: 12px;
 	font-size: 38px;
-	font-family: Lato-Black, Arial, sans-serif;
+	font-family: Lato-Black;
 	/*font-weight: normal;
 	font-style: normal;*/
 	color: #666d89;
@@ -654,7 +678,7 @@ main {
 
 .services-main-test p {
 	/*text-align: center;*/
-	font-family: Lato-Light, Arial, sans-serif;
+
 	font-weight: 500;
 	font-style: initial;
 	color: #767e9e;
@@ -672,73 +696,99 @@ main {
 	color: #666d89;
 }
 
-.service p {
-	font-family: Lato-Light, Arial, sans-serif;
-	font-weight: 600;
-	font-style: initial;
-	color: #767e9e;
-	font-size: 14px;
-	line-height: 30px;
-}
-
 .service-icon, .service-content {
 	display: inline-block;
 	float: left;
 }
 
-	.service-content {
-		width: 250px;
-		margin-left: 20px;
-	}
+.service-content {
+	width: 250px;
+	margin-left: 20px;
+	display: inline-block;
+}
 
-	.custom-design .service-icon {
-		background: url(assets/images/pen.png) no-repeat;
-		background-size: contain;
-		display: inline-block;
-		width: 62px;
-		height: 62px;
-		/*margin-bottom: 175px;
+.service-content p {
+	font-weight: 600;
+	font-style: initial;
+	color: #767e9e;
+	font-size: 14px;
+	line-height: 32px;
+	word-wrap: break-word;
+}
+
+.custom-design .service-icon {
+	background: url(assets/images/pen.png) no-repeat;
+	background-size: contain;
+	--moz-background-size: contain;
+	--webkit-background-size: contain;
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+	/*margin-bottom: 175px;
 	margin-left: 70px;*/
-	}
+}
 
 .innovative-ideas .service-icon {
 	background: url(assets/images/bulb.png) no-repeat;
 	background-size: contain;
+	--moz-background-size: contain;
+	--webkit-background-size: contain;
 	display: inline-block;
-	width: 62px;
-	height: 62px;
+	width: 75px;
+	height: 75px;
 }
 
 .love-is-the-answer .service-icon {
 	background: url(assets/images/heart.png) no-repeat;
 	background-size: contain;
+	--moz-background-size: contain;
+	--webkit-background-size: contain;
 	display: inline-block;
-	width: 62px;
-	height: 62px;
+	width: 75px;
+	height: 75px;
 }
 
 .responsive-layout .service-icon {
 	background: url(assets/images/phone.png) no-repeat;
 	background-size: contain;
+	--moz-background-size: contain;
+	--webkit-background-size: contain;
 	display: inline-block;
-	width: 62px;
-	height: 62px;
+	width: 75px;
+	height: 75px;
 }
 
 .support-24-7 .service-icon {
 	background: url(assets/images/bubble.png) no-repeat;
 	background-size: contain;
+	--moz-background-size: contain;
+	--webkit-background-size: contain;
 	display: inline-block;
-	width: 62px;
-	height: 62px;
+	width: 75px;
+	height: 75px;
 }
 
 .feel-like-a-star .service-icon {
 	background: url(assets/images/star.png) no-repeat;
 	background-size: contain;
+	--moz-background-size: contain;
+	--webkit-background-size: contain;
 	display: inline-block;
-	width: 62px;
-	height: 62px;
+	width: 75px;
+	height: 75px;
+}
+
+.services-bottom-line {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: justify;
+	height: 10px; /*ToDo*/
+	background-color: white;
 }
 
 .highlight {

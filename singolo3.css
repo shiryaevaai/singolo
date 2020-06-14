@@ -446,15 +446,37 @@ body {
 	padding-top: 10px;
 }
 
-.form-container input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-	color: #f48c8f;
-	font-size:12px;
+.form-container button {
+	display: block;
+	background-color: #d6564f; /*form-fields*/
+	color: #f48c8f; /*text */
+	border-width: 0;
+	border-radius: 5px;
+	width:100px;
+	margin-bottom:17px;
+	padding-left:10px;
+	height: 35px;
+	padding-top: 2px;
+
 }
 
-input:focus, textarea:focus {
+.form-container input::-webkit-input-placeholder, textarea::-webkit-input-placeholder, .form-container button {
+	color: #f48c8f;
+	font-size: 12px;
+}
+
+input:focus, textarea:focus, .form-container button:focus {
 	border-width: 0;
 	background-color: #ba4c46;
 	outline: none;
+}
+
+input[name=Name]:valid, input[name=Email]:valid {
+	background-color: #99f5c5;
+}
+
+input[name=Name]:invalid, input[name=Email]:invalid {
+	background-color: red;
 }
 
 .contacts {

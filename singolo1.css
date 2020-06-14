@@ -372,48 +372,11 @@ template {
 
 body {
 	margin: 0;
-
-	/*
-	___________header_____________
-	background-color: #2d303a; header
-	background-color: #323746; line under header
-	background-color: #494e62; points in header
-	background-color: #f06c64; nav text
-	______________main__________
-	background-color: #f06c64; main background
-	background-color: #ca4549; arrows
-	background-color: #ea676b; line under main
-	____________services____________
-	background-color: #f2f2f2; services background
-	background-color: #666d89; services text
-
-	                           */
 }
 
 .navbar {
 	position: relative;
 	height: 50px;
-	/*display: -ms-flexbox;
-	display: flex;
-	--webkit-display: box;
-	--webkit-display: flex;
-
-	--ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	--webkit-wrap: wrap;
-	--webkit-flex-wrap: wrap;
-
-	--ms-flex-align: center;
-	--webkit-flex-align: center;
-
-	align-items: center;
-	--webkit-align-items: center;
-
-	--ms-flex-pack: justify;
-	--webkit-flex-pack: justify;
-
-	justify-content: space-between;*/
-	/*padding: 17px 30px;*/ /*ToDo*/
 	padding-top: 20px;
 	padding-bottom: 20px;
 	background-color: #2d303a;
@@ -424,11 +387,8 @@ body {
 }
 
 .container {
-	/*padding-right: 15px;
-	padding-left: 15px;*/
 	margin-right: auto;
 	margin-left: auto;
-	/*display: inline-block;*/
 	width: 100%;
 	box-sizing: border-box;
 }
@@ -436,7 +396,6 @@ body {
 .logo {
 	display: inline-block;
 	float: left;
-	/*font-size: 20px;*/
 	margin-left: 25px;
 }
 
@@ -447,14 +406,10 @@ body {
 }
 
 .navbar-nav {
-	/*display: -ms-flexbox;*/
 	display: inline-block;
-	/*-ms-flex-direction: column;
-	flex-direction: column;*/
 	margin-right: 12px;
 	padding-top: 20px;
 	float: right;
-	/*clear: right;*/
 }
 
 .nav-list {
@@ -475,7 +430,7 @@ body {
 
 .nav-list li span {
 	color: white;
-	font-size: 11px; /*ToDo*/
+	font-size: 11px;
 }
 
 .nav-item-first {
@@ -483,16 +438,16 @@ body {
 }
 
 .nav-item-active span {
-	color: #f06c64 !important; /*ToDo*/
+	color: #f06c64 !important;
 }
 
 .nav-item a:hover {
-	color: #acacac; /* Цвет ссылки */
+	color: #acacac;
 	cursor: pointer;
 }
 
 .nav-item li a:active {
-	color: #f06c64; /* Цвет ссылки */
+	color: #f06c64;
 }
 
 .navbar-bottom-line {
@@ -504,7 +459,7 @@ body {
 	-ms-flex-align: center;
 	align-items: center;
 	-ms-flex-pack: justify;
-	height: 5px; /*ToDo*/
+	height: 5px;
 	background-color: #323746;
 }
 
@@ -521,20 +476,10 @@ main {
 	margin-left: auto;
 	width: 100%;
 	height: 594px;
-
-	
-	/*padding: 17px 30px;*/ /*ToDo*/
-	/*padding-top: 20px;
-	padding-bottom: 20px;*/
-
 	margin-right: auto;
 	margin-left: auto;
 	box-sizing: border-box;
 }
-
-/*.sliders {
-	height: 600px;
-}*/
 
 .slider {
 	display: inline-block;
@@ -553,7 +498,6 @@ main {
 .slider-images {
 	display: inline-block;
 	height: inherit;
-	/*width: 900px;*/
 }
 
 .arrow {
@@ -625,7 +569,7 @@ main {
 	-ms-flex-align: center;
 	align-items: center;
 	-ms-flex-pack: justify;
-	height: 7px; /*ToDo*/
+	height: 7px;
 	background-color: #ea676b;
 }
 
@@ -638,7 +582,7 @@ main {
 	width: 100%;
 	height: 492px;
 	padding-top: 20px;
-	background-color: #f2f2f2; /*services background*/
+	background-color: #f2f2f2;
 }
 
 .services-container {
@@ -706,64 +650,37 @@ main {
 	word-wrap: break-word;
 }
 
-.custom-design .service-icon {
+.service-icon {
+	background-size: contain;
+	--moz-background-size: contain;
+	--webkit-background-size: contain;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+}
+
+.custom-design {
 	background: url(assets/images/pen.png) no-repeat;
-	background-size: contain;
-	--moz-background-size: contain;
-	--webkit-background-size: contain;
-	display: inline-block;
-	width: 60px;
-	height: 60px;
 }
 
-.innovative-ideas .service-icon {
+.innovative-ideas {
 	background: url(assets/images/bulb.png) no-repeat;
-	background-size: contain;
-	--moz-background-size: contain;
-	--webkit-background-size: contain;
-	display: inline-block;
-	width: 60px;
-	height: 60px;
 }
 
-.love-is-the-answer .service-icon {
+.love-is-the-answer {
 	background: url(assets/images/heart.png) no-repeat;
-	background-size: contain;
-	--moz-background-size: contain;
-	--webkit-background-size: contain;
-	display: inline-block;
-	width: 60px;
-	height: 60px;
 }
 
-.responsive-layout .service-icon {
+.responsive-layout {
 	background: url(assets/images/phone.png) no-repeat;
-	background-size: contain;
-	--moz-background-size: contain;
-	--webkit-background-size: contain;
-	display: inline-block;
-	width: 60px;
-	height: 60px;
 }
 
-.support-24-7 .service-icon {
+.support-24-7 {
 	background: url(assets/images/bubble.png) no-repeat;
-	background-size: contain;
-	--moz-background-size: contain;
-	--webkit-background-size: contain;
-	display: inline-block;
-	width: 60px;
-	height: 60px;
 }
 
-.feel-like-a-star .service-icon {
+.feel-like-a-star {
 	background: url(assets/images/star.png) no-repeat;
-	background-size: contain;
-	--moz-background-size: contain;
-	--webkit-background-size: contain;
-	display: inline-block;
-	width: 60px;
-	height: 60px;
 }
 
 .services-bottom-line {
@@ -775,7 +692,7 @@ main {
 	-ms-flex-align: center;
 	align-items: center;
 	-ms-flex-pack: justify;
-	height: 7px; /*ToDo*/
+	height: 7px;
 	background-color: white;
 }
 
@@ -786,4 +703,3 @@ main {
 .mr-auto {
 	margin-right: auto !important;
 }
-

@@ -627,7 +627,7 @@ main {
 	margin-left: auto;
 	width: 100%;
 	height: 400px;
-	padding: 60px;
+	padding: 59px 50px;
 	background-color: #f2f2f2; /*services background*/
 }
 
@@ -645,7 +645,7 @@ main {
 
 .services h2 {
 	margin-top: 12px;
-	font-size: 42px;
+	font-size: 38px;
 	font-family: Lato-Black, Arial, sans-serif;
 	/*font-weight: normal;
 	font-style: normal;*/
@@ -655,16 +655,16 @@ main {
 .services-main-test p {
 	/*text-align: center;*/
 	font-family: Lato-Light, Arial, sans-serif;
-	font-weight: 600;
+	font-weight: 500;
 	font-style: initial;
 	color: #767e9e;
-	font-size: 25px;
-	line-height: 38px;
+	font-size: 22px;
+	line-height: 36px;
 }
 
 .service h3 {
 	margin-top: 0px;
-	font-size: 25px;
+	font-size: 23px;
 	font-family: Lato-Black, Arial, sans-serif;
 	/*font-weight: normal;
 	font-style: normal;*/
@@ -676,7 +676,7 @@ main {
 	font-weight: 600;
 	font-style: initial;
 	color: #767e9e;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 30px;
 }
 

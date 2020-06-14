@@ -392,7 +392,7 @@ body {
 
 .navbar {
 	position: relative;
-	height: 70px;
+	height: 50px;
 	/*display: -ms-flexbox;
 	display: flex;
 	--webkit-display: box;
@@ -438,12 +438,13 @@ body {
 	display: inline-block;
 	float: left;
 	/*font-size: 20px;*/
-	margin-left: 60px;
+	margin-left: 25px;
 }
 
 .logo h1 {
-	margin-top: 21px;
+	margin-top: 10px;
 	margin-bottom: 20px;
+	font-size: 25px;
 }
 
 .navbar-nav {
@@ -452,7 +453,7 @@ body {
 	/*-ms-flex-direction: column;
 	flex-direction: column;*/
 	margin-right: 12px;
-	padding-top: 38px;
+	padding-top: 20px;
 	float: right;
 	/*clear: right;*/
 }
@@ -467,15 +468,15 @@ body {
 .nav-list li {
 	float: left;
 	margin: 0;
-	padding-left: 8px;
-	padding-right: 33px;
-	font-size: 10px;
+	padding-left: 6px;
+	padding-right: 26px;
+	font-size: 7px;
 	-moz-box-sizing: border-box;
 }
 
 .nav-list li span {
 	color: white;
-	font-size: 16px; /*ToDo*/
+	font-size: 11px; /*ToDo*/
 }
 
 .nav-item-first {
@@ -504,7 +505,7 @@ body {
 	-ms-flex-align: center;
 	align-items: center;
 	-ms-flex-pack: justify;
-	height: 10px; /*ToDo*/
+	height: 5px; /*ToDo*/
 	background-color: #323746;
 }
 

@@ -606,6 +606,18 @@ main {
 	background-color: #ea676b;
 }
 
+.services {
+	background-color: #f06c64;
+	display: inline-block;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: 400px;
+
+	background-color: #f2f2f2; /*services background*/
+	color: #666d89; /*services text*/
+}
 
 .highlight {
 	color: #f06c64;

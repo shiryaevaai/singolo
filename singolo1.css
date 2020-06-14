@@ -629,7 +629,18 @@ main {
 	height: 400px;
 	padding: 60px;
 	background-color: #f2f2f2; /*services background*/
+}
 
+.services-container {
+	display: grid;
+	grid-template-columns: 250px 250px 250px;
+	grid-template-rows: 100px 100px 100px;
+	grid-template-areas: "custom-design innovative-ideas love-is-the-answer" "responsive-layout support-24-7 feel-like-a-star";
+	
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+
+	/*justify-items: start | end | center | stretch;*/
 }
 
 .services h2 {

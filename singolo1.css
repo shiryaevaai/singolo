@@ -636,28 +636,17 @@ main {
 	margin-right: auto;
 	margin-left: auto;
 	width: 100%;
-	height: 620px;
-	padding: 59px 48px;
+	height: 492px;
+	padding-top: 20px;
 	background-color: #f2f2f2; /*services background*/
 }
 
 .services-container {
-	/*display: grid;
-	grid-template-columns: auto auto auto;
-	grid-template-rows: 150px 150px 150px;
-	grid-template-areas: "custom-design innovative-ideas love-is-the-answer" "responsive-layout support-24-7 feel-like-a-star";
-	grid-column-gap: 10px;
-	grid-row-gap: 10px;
-	--webkit-display: grid;
-	--webkit-dgrid-template-columns: auto auto auto;
-	--webkit-dgrid-template-rows: 150px 150px 150px;
-	--webkit-dgrid-template-areas: "custom-design innovative-ideas love-is-the-answer" "responsive-layout support-24-7 feel-like-a-star";
-	--webkit-dgrid-column-gap: 10px;
-	--webkit-dgrid-row-gap: 10px;*/
 	display: inline-block;
 	width: auto;
 	margin-top: 25px;
-	/*justify-items: start | end | center | stretch;*/
+	padding: 0 25px;
+	padding-bottom: 30px;
 }
 
 .services p {
@@ -666,37 +655,34 @@ main {
 
 .service {
 	display: inline-block;
-	width: 360px;
-	height: 150px;
-	margin: 5px 10px;
+	width: 300px;
+	height: 115px;
+	margin: 2px 5px;
 }
 
 .services h2 {
-	margin-top: 12px;
-	font-size: 38px;
+	margin-top: 39px;
+	margin-bottom: 20px;
+	font-size: 30px;
 	font-family: Lato-Black;
-	/*font-weight: normal;
-	font-style: normal;*/
 	color: #666d89;
+	padding: 0 25px;
 }
 
 .services-main-test p {
-	/*text-align: center;*/
-
 	font-weight: 500;
 	font-style: initial;
 	color: #767e9e;
-	font-size: 22px;
-	line-height: 36px;
+	font-size: 18px;
+	line-height: 30px;
+	padding: 0 25px;
 }
 
 .service h3 {
 	margin-top: 0px;
-	margin-bottom: 10px;
-	font-size: 23px;
+	margin-bottom: 7px;
+	font-size: 17px;
 	font-family: Lato-Black, Arial, sans-serif;
-	/*font-weight: normal;
-	font-style: normal;*/
 	color: #666d89;
 }
 
@@ -706,8 +692,8 @@ main {
 }
 
 .service-content {
-	width: 250px;
-	margin-left: 20px;
+	width: 225px;
+	margin-left: 12px;
 	display: inline-block;
 }
 
@@ -715,8 +701,8 @@ main {
 	font-weight: 600;
 	font-style: initial;
 	color: #767e9e;
-	font-size: 14px;
-	line-height: 32px;
+	font-size: 12px;
+	line-height: 20px;
 	word-wrap: break-word;
 }
 
@@ -726,10 +712,8 @@ main {
 	--moz-background-size: contain;
 	--webkit-background-size: contain;
 	display: inline-block;
-	width: 75px;
-	height: 75px;
-	/*margin-bottom: 175px;
-	margin-left: 70px;*/
+	width: 60px;
+	height: 60px;
 }
 
 .innovative-ideas .service-icon {
@@ -738,8 +722,8 @@ main {
 	--moz-background-size: contain;
 	--webkit-background-size: contain;
 	display: inline-block;
-	width: 75px;
-	height: 75px;
+	width: 60px;
+	height: 60px;
 }
 
 .love-is-the-answer .service-icon {
@@ -748,8 +732,8 @@ main {
 	--moz-background-size: contain;
 	--webkit-background-size: contain;
 	display: inline-block;
-	width: 75px;
-	height: 75px;
+	width: 60px;
+	height: 60px;
 }
 
 .responsive-layout .service-icon {
@@ -758,8 +742,8 @@ main {
 	--moz-background-size: contain;
 	--webkit-background-size: contain;
 	display: inline-block;
-	width: 75px;
-	height: 75px;
+	width: 60px;
+	height: 60px;
 }
 
 .support-24-7 .service-icon {
@@ -768,8 +752,8 @@ main {
 	--moz-background-size: contain;
 	--webkit-background-size: contain;
 	display: inline-block;
-	width: 75px;
-	height: 75px;
+	width: 60px;
+	height: 60px;
 }
 
 .feel-like-a-star .service-icon {
@@ -778,8 +762,8 @@ main {
 	--moz-background-size: contain;
 	--webkit-background-size: contain;
 	display: inline-block;
-	width: 75px;
-	height: 75px;
+	width: 60px;
+	height: 60px;
 }
 
 .services-bottom-line {
@@ -791,7 +775,7 @@ main {
 	-ms-flex-align: center;
 	align-items: center;
 	-ms-flex-pack: justify;
-	height: 10px; /*ToDo*/
+	height: 7px; /*ToDo*/
 	background-color: white;
 }
 

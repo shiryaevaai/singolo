@@ -424,7 +424,6 @@ body {
 }
 
 .container {
-	width: 100%;
 	/*padding-right: 15px;
 	padding-left: 15px;*/
 	margin-right: auto;
@@ -521,7 +520,7 @@ main {
 	margin-right: auto;
 	margin-left: auto;
 	width: 100%;
-	height: 740px;
+	height: 593px;
 
 	
 	/*padding: 17px 30px;*/ /*ToDo*/
@@ -533,10 +532,14 @@ main {
 	box-sizing: border-box;
 }
 
+.sliders {
+	height: 600px;
+}
+
 .slider {
 	display: inline-block;
 	height: inherit;
-	width: 100px;
+	width: 90px;
 }
 
 .sl-left {
@@ -558,10 +561,10 @@ main {
 	background-size: cover;
 	--moz-background-size: cover;
 	--webkit-background-size: cover;
-	width: 20px;
-	height: 35px;
+	width: 15px;
+	height: 28px;
 	border-width: 0;
-	margin-top: 360px;
+	margin-top: 280px;
 }
 
 .arrow:hover {
@@ -569,22 +572,21 @@ main {
 	background-size: cover;
 	--moz-background-size: cover;
 	--webkit-background-size: cover;
-	width: 20px;
-	height: 35px;
+	width: 15px;
+	height: 28px;
 	border-width: 0;
-	margin-top: 360px;
-	cursor: pointer;
+	margin-top: 280px;
 }
 
 .left {
-	margin-left: 55px;
+	margin-left: 40px;
 }
 
 .right {
 	transform: scale(-1, 1);
 	-webkit-transform: scale(-1, 1);
 	float: right;
-	margin-right: 55px;
+	margin-right: 40px;
 }
 
 .phone-vertical {
@@ -594,10 +596,10 @@ main {
 	--webkit-background-size: contain;
 	display: inline-block;
 	--webkit-display: inline-block;
-	width: 310px;
-	height: 630px;
-	margin-top: 60px;
-	margin-left: 40px
+	width: 246px;
+	height: 550px;
+	margin-top: 40px;
+	margin-left: 15px
 }
 
 .phone-horizontal {
@@ -607,10 +609,10 @@ main {
 	--webkit-background-size: contain;
 	display: inline-block;
 	--webkit-display: inline-block;
-	width: 625px;
-	height: 310px;
-	margin-bottom: 175px;
-	margin-left: 70px;
+	width: 490px;
+	height: 400px;
+	margin-bottom: 30px;
+	margin-left: 60px;
 }
 
 .main-bottom-line {
@@ -622,7 +624,7 @@ main {
 	-ms-flex-align: center;
 	align-items: center;
 	-ms-flex-pack: justify;
-	height: 10px; /*ToDo*/
+	height: 7px; /*ToDo*/
 	background-color: #ea676b;
 }
 

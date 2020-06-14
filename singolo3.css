@@ -385,8 +385,8 @@ body {
 	padding-top: 40px;
 	padding-left: 40px;
 	padding-right: 20px;
-	background-color: #f06c64; /*form-background*/
-	color: #f0d8d9; /*text */
+	background-color: #f06c64;
+	color: #f0d8d9;
 }
 
 .singolo-form h1 {
@@ -417,19 +417,14 @@ body {
 	position: relative;
 	width: 620px;
 	height: 400px;
-	/*margin: 2px 5px;*/
 	font-family: Lato-Regular, Arial, sans-serif;
 	font-size: 10px;
 }
 
-.form-container form {
-	
-}
-
 .form-container input, textarea {
 	display: block;
-	background-color: #d6564f; /*form-fields*/
-	color: #f48c8f; /*text */
+	background-color: #d6564f;
+	color: #f48c8f;
 	border-width: 0;
 	border-radius: 5px;
 	width:600px;
@@ -439,7 +434,7 @@ body {
 
 .form-container input {
 	height: 35px;
-		padding-top: 2px;
+	padding-top: 2px;
 }
 
 .form-container textarea {
@@ -450,8 +445,8 @@ body {
 
 .form-container button {
 	display: block;
-	background-color: #d6564f; /*form-fields*/
-	color: #f48c8f; /*text */
+	background-color: #d6564f;
+	color: #f48c8f;
 	border-width: 0;
 	border-radius: 5px;
 	width:100px;
@@ -486,7 +481,6 @@ input[name=Name]:valid, input[name=Email]:valid {
 	float: right;
 	width: 300px;
 	height: 400px;
-	/*margin: 2px 5px;*/
 	font-family: Lato-Regular, Arial, sans-serif;
 	font-size: 10px;
 	padding:0;
@@ -572,15 +566,14 @@ input[name=Name]:valid, input[name=Email]:valid {
 
 footer {
 	height: 80px;
-	background-color: #2d303a; /*footer-background*/
-	color: #5b6179; /*footer text*/
+	background-color: #2d303a;
+	color: #5b6179;
 }
 
 .footer-container {
 	display: inline-block;
 	position: relative;
 	margin-top: 15px;
-	/*margin-bottom: 30px;*/
 	margin-right: auto;
 	margin-left: auto;
 	width: 100%;
@@ -599,14 +592,9 @@ footer {
 
 .footer-icons {
 	display: inline-block;
-	margin-right: 12px;
-	padding-top: 5px;
+	margin-right: 40px;
+	padding-top: 8px;
 	float: right;
-
-	/*display: inline-block;
-	position: relative;
-	float: right;*/
-	/*margin-top: 10px;*/
 }
 
 .footer-icon {
@@ -617,7 +605,7 @@ footer {
 	position: relative;
 	width: 33px;
 	height: 33px;
-	margin-left: 10px;
+	margin-left: 5px;
 }
 
 .footer-icon:hover {

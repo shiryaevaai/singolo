@@ -408,13 +408,14 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	width: 100%;
-	height: 492px;
-	padding-top: 30px;
+	height: 462px;
+	padding-top: 27px;
 }
 
 .form-container {
 	display: inline-block;
-	width: 700px;
+	position: relative;
+	width: 620px;
 	height: 400px;
 	/*margin: 2px 5px;*/
 	font-family: Lato-Regular, Arial, sans-serif;
@@ -442,7 +443,7 @@ body {
 }
 
 .form-container textarea {
-	height: 200px;
+	height: 190px;
 	padding-top: 10px;
 }
 
@@ -479,14 +480,78 @@ input[name=Name]:invalid, input[name=Email]:invalid {
 	background-color: red;
 }
 
+.form-container button:hover {
+	cursor: pointer;
+}
+
 .contacts {
 	display: inline-block;
+	position: relative;
+	float: right;
 	width: 300px;
 	height: 400px;
 	/*margin: 2px 5px;*/
+	font-family: Lato-Regular, Arial, sans-serif;
+	font-size: 10px;
+	padding:0;
+	margin-right:20px;
 }
 
+.contacts h2 {
+	margin: 0;
+	font-size: 18px;
+}
 
+.contacts-description p {
+	font-size: 12px;
+	line-height: 22px;
+	word-wrap: break-word;
+}
+
+.contacts-data {
+	display: inline-block;
+	position: relative;
+	padding-top: 15px;
+	font-size: 12px;
+	line-height: 22px;
+	word-wrap: break-word;
+}
+
+.contact-data {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	height: 15px;
+}
+
+.contact-data-txt {
+	display: inline-block;
+	position: relative;
+	padding-left: 5px;
+}
+
+.contact-data-icon {
+	background-size: contain;
+	--moz-background-size: contain;
+	--webkit-background-size: contain;
+	display: inline-block;
+	position: relative;
+	width: 15px;
+	height: 15px;
+	vertical-align: bottom;
+}
+
+.icon-map {
+	background: url(assets/images/form-map.png) no-repeat;
+}
+
+.icon-phone {
+	background: url(assets/images/form-phone.png) no-repeat;
+}
+
+.icon-mail {
+	background: url(assets/images/form-mail.png) no-repeat;
+}
 
 footer {
 	background-color: #2d303a; /*footer-background*/
